@@ -1,5 +1,5 @@
 body{
-   background-image: url("./ThriftPlanImg/thriftbg1.svg"),url("./ThriftPlanImg/thriftbg2.svg");
+   background-image: url("./thriftbg1.svg"),url("./thriftbg2.svg");
   background-repeat: no-repeat;
   background-position: top 0% left 15%, bottom 0% right 10%; 
   font-family: 'Nunito', sans-serif;
