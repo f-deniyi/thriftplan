@@ -1,0 +1,45 @@
+body{
+   background-image: url("./ThriftPlanImg/thriftbg1.svg"),url("./ThriftPlanImg/thriftbg2.svg");
+  background-repeat: no-repeat;
+  background-position: top 0% left 15%, bottom 0% right 10%; 
+  font-family: 'Nunito', sans-serif;
+} 
+.component-text{
+  font-size:18px;
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+  font-size:17px;
+}
+.subscription{
+width:57%;
+height:57%🧮 ;
+border-radius:50%;
+}
+.rounded-circle{
+  border-radius:50%;
+}
+.text-blue{
+  color:#2996FD !important;
+}
+.border-blue{
+  border-color:#2996FD !important;
+}
+.bg-blue{
+  background-color:#2996FD !important;
+}
+.card{
+  border-radius:0.9em!important;
+  border-width: 2px !important;
+}
+.btn{
+font-weight:700;
+font-Size :20px;
+}
+.btn-blue{
+  background-image:linear-gradient(to right,#2996FD,
+  #1343BD
+  )
+}
