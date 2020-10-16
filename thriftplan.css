@@ -1,45 +1,86 @@
-body{
-   background-image: url("./thriftbg1.svg"),url("./thriftbg2.svg");
-  background-repeat: no-repeat;
-  background-position: top 0% left 15%, bottom 0% right 10%; 
-  font-family: 'Nunito', sans-serif;
-} 
-.component-text{
-  font-size:18px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul{
+
+body {
+  background-image: url("./thriftbg1.svg"), url("./thriftbg2.svg");
+  background-repeat: no-repeat;
+  background-position: top 0% left 15%, bottom 0% right 10%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.component-text {
+  font-size: 18px;
+}
+
+ul {
   list-style-type: none;
 }
-ul li{
-  font-size:17px;
+
+ul li {
+  font-size: 17px;
 }
-.subscription{
-width:57%;
-height:57%🧮 ;
-border-radius:50%;
+
+.subscription {
+  width: 57%;
+  height: 57%🧮;
+  border-radius: 50%;
 }
-.rounded-circle{
-  border-radius:50%;
+
+.rounded-circle {
+  border-radius: 50%;
 }
-.text-blue{
-  color:#2996FD !important;
+
+.text-blue {
+  color: #2996FD !important;
 }
-.border-blue{
-  border-color:#2996FD !important;
+
+.border-blue {
+  border-color: #2996FD !important;
 }
-.bg-blue{
-  background-color:#2996FD !important;
+
+.bg-blue {
+  background-color: #2996FD !important;
 }
-.card{
-  border-radius:0.9em!important;
+
+.card {
+  border-radius: 0.9em!important;
   border-width: 2px !important;
 }
-.btn{
-font-weight:700;
-font-Size :20px;
+
+.btn {
+  font-weight: 700;
+  font-Size: 20px;
 }
-.btn-blue{
-  background-image:linear-gradient(to right,#2996FD,
-  #1343BD
-  )
+
+.btn-blue {
+  background-image: linear-gradient(to right, #2996FD, #1343BD)
 }
+
+@media(max-width:760px) {
+  .card-title h2 {
+    font-size: 1.5em;
+  }
+  .m-sm-0 {
+    margin: 0 !important;
+  }
+  .w-sm-100 {
+    width: 100% !important;
+  }
+  .component-text {
+    font-size: 16px;
+  }
+  .plans {
+    margin: auto;
+    width: 93%;
+  }
+  .subscription {
+    width: 70% !important;
+  }
+  .subscription h5 {
+    font-size: 0.95em;
+  }
+}
+
