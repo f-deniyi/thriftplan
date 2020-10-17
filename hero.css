@@ -1,0 +1,56 @@
+body {
+  overflow-x: hidden;
+}
+
+.hero-section {
+  height: 85vh;
+  margin: 0 -3em 0 -3em;
+  overflow: hidden !important;
+  background-image: url('./herobg2.svg'), url("./herobg1.svg"), url("./Polygon\ 1.svg"), url("./Polygon\ 2.svg"), url("./Polygon\ 3.svg"), url("./Ellipse\ 2.svg");
+  background-repeat: no-repeat;
+  background-size: 20%, 33%, 2%, 2%, 2%, 2%;
+  background-position: right 18% bottom 70%, right 12% bottom 75%, top 10% left 10%, left 30% bottom 20%, top 3% right 5%,  top 20% right 20%;
+  border-radius: 50%/ 0% 0% 70% 70%;
+  position: relative;
+}
+
+.active {
+  margin-bottom: 0;
+}
+
+.active a {
+  padding-bottom: 0;
+}
+
+.active:after {
+  content: "";
+  display: block;
+  width: 1.3em;
+  border-bottom: 0.2em solid white;
+  padding-left: 2px;
+  margin-left: 0.5em;
+}
+
+.hero-header-text {
+  font-size: 65px;
+  line-height: 78.8px;
+}
+
+.hero-header-texts {
+  font-size: 18px;
+  line-height: 33.74px;
+}
+
+#navbarResponsive ul li a {
+  font-size: 24px !important;
+}
+
+.scroll {
+  position: absolute;
+  left: 40%;
+  top: 84%;
+}
+
+.arrow-head {
+  font-size: 72px;
+}
