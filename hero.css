@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -68,7 +68,12 @@ header {
   left: 40%;
   top: 84%;
 }
-
+.faq-bg{
+  background-color: #D6EBFF;
+}
+.frequently-asked-question .card{
+  box-shadow: 0 4px 8px 0.3em  #D6EBFF, 0 5px 20px 0  #D6EBFF;
+}
 @-webkit-keyframes animateBubble {
   0% {
     margin-top: 1000px;
@@ -255,20 +260,21 @@ header {
 }
 
 @media(max-width:760px) {
-  .d-sm-block {
-    display: block !important;
-  }
   .hero-section {
-    height:90vh;
-    margin: 0 0 !important;
-    border-radius: 50%/0 0 0 900px;}
-  .p-sm-0{
-    padding:0 !important;
+    height: 92vh;
+    margin: 0 -30em 0 -2em;
+    border-radius: 90%/ 0% 0% 70% 70%;
   }
-  .w-sm-75{
-    width:75%;
+  .p-sm-0 {
+    padding: 0 !important;
   }
-  .sm-center{
+  .w-sm-100{
+    width:100% !important;
+  }
+  .w-sm-75 {
+    width: 75%;
+  }
+  .sm-center {
     text-align: center !important;
   }
   .hero-header-text {
@@ -278,10 +284,6 @@ header {
   .hero-header-texts {
     font-size: 16px;
     line-height: 28px;
-  }
-  .scroll {
-    left: 30%;
-    top: 50%;
   }
   .text-sm-center {
     text-align: center;
@@ -299,9 +301,6 @@ header {
   .mx-sm-auto {
     margin: auto;
   }
-  .w-sm-85 {
-    width: 85%;
-  }
   .px-sm-5 {
     padding: 0 3rem !important;
   }
@@ -311,21 +310,25 @@ header {
   .w-sm-100 {
     width: 100% !important
   }
-  .active:after {
-    border-bottom: unset;
+  .w-sm-50 {
+    width: 50% !important
+  }
+  .w-sm-75 {
+    width: 75% !important
+  }
+  .ml-sm-75 {
+    margin-left: 4em !important
   }
   .scroll {
     position: absolute;
     left: 10%;
-    top: 90%;
-    z-index:50;
+    top: 82%;
+    z-index: 50;
   }
-  
 }
-@media only screen and (min-width: 1024px) and (max-height: 1366px)
-    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
-      .hero-section {
-        height: 70vh;
-      }
 
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+  .hero-section {
+    height: 70vh;
+  }
 }
